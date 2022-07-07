@@ -6,4 +6,4 @@ Compared to the original, this version was slightly simplified.
 
 ## License
 
-Licensed under MIT License.
+This project is under the [MIT license](https://opensource.org/licenses/MIT).
