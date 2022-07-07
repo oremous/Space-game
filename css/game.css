@@ -1,0 +1,48 @@
+
+@font-face {
+  font-family: "Nokia Cellphone FC";
+  src: url("../fonts/NokiaCellphoneFC-Small.woff2") format("woff2"), url("../fonts/NokiaCellphoneFC-Small.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body.game {
+  max-width: none;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#starfield {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#gameContainer {
+  width: 100%;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#gameCanvas {
+  outline: none;
+  display: block;
+  margin: 0 auto;
+}
